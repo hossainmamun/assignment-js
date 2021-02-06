@@ -21,3 +21,5 @@ function budgetCalculator(watch, phone, laptop){
 }
 let budget = budgetCalculator(50, 100, 500);
 console.log(budget);
+
+
