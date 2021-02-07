@@ -1,3 +1,7 @@
+// git repository....
+// https://github.com/hossainmamun/assignment-js/blob/main/assignment.js
+
+
 
 // convert kilometer to meter
 function kilometerToMeter(kilometer){
@@ -46,4 +50,21 @@ function hotelCost(days){
 let totalRent = hotelCost(51);
 console.log(totalRent);
 
+
+
+// mega friend
+function megaFriend(name) {
+    var longestName = "";
+  
+    name.forEach(function(value) {
+      if(value.length > longestName.length) {
+        longestName = value;
+      }
+    });
+  
+    return longestName;
+  }
+  
+  var value = megaFriend(["google", "facebook", "microsoft", "netflix", "amazon", "tesla"]);
+  console.log(value);
 
